@@ -12,11 +12,11 @@
             // Ctrl + R + W     (wordwrap)
             // Ctrl + Shift + B (build etme - derleme)
 
-
             //Console.WriteLine("Hello World");
             //Console.ReadKey(); // basılan tuşu teslim eder.
             //Console.ReadLine(); // ekrana yazılan değeri teslim eder.
-
+            
+            // TODO : Kullanıcı bilgileri dışarıdan alınacak
 
             Console.WriteLine("Lütfen Adınızı  Giriniz : ");
             Console.WriteLine("Giriş yapan kullanıcı : " + Console.ReadLine()); 
