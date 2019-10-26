@@ -19,7 +19,9 @@
 
 
             Console.WriteLine("Lütfen Adınızı  Giriniz : ");
-            Console.WriteLine("Giriş yapan kullanıcı : " + Console.ReadLine()); 
+            Console.WriteLine("Giriş yapan kullanıcı : " + Console.ReadLine());
+            Console.WriteLine("Lütfen Telefon Numaranızı Giriniz : ");
+            Console.WriteLine("Telefon Numaranız : " + Console.ReadLine());
             Console.Read();
         }
     }
