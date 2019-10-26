@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace FirstApp
+﻿namespace FirstApp
 {
+    using System;
     class Program
     {
         static void Main(string[] args)
@@ -20,15 +19,8 @@ namespace FirstApp
 
 
             Console.WriteLine("Lütfen Adınızı  Giriniz : ");
-            Console.WriteLine("Giriş yapan kullanıcı : " + Console.ReadLine());
-
+            Console.WriteLine("Giriş yapan kullanıcı : " + Console.ReadLine()); 
             Console.Read();
         }
     }
-}
-
-
-
-// bu alana yazdığınız kodlar derlenecektir.
-
-/*  Çoklu yorum satırı */
+} 
